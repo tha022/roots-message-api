@@ -1,5 +1,8 @@
 let mongoose = require('mongoose');
-let dbURI = 'mongodb://localhost/audience';
+// let dbURI = 'mongodb://localhost/audience';
+
+let dbURI = 'mongodb://herokudev:veryhardpassword123@ds155699.mlab.com:55699/heroku_5wrdjnc4';
+
 mongoose.connect(dbURI);
 
 // CONNECTION EVENTS
